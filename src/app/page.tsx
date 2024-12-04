@@ -6,7 +6,9 @@ import WorldMap from '@/_components/world';
 export default function Home() {
   return (
     <>
-      <WorldMap />
+      <div>
+        <WorldMap />
+      </div>
       <div>
         <UsaMap />
       </div>

@@ -17,7 +17,12 @@ export default function UsaMap(): JSX.Element {
 
   return (
     <>
-      <svg width='982px' height='612px' viewBox='0 0 982 612'>
+      <svg
+        width='982px'
+        height='612px'
+        style={{ maxWidth: '100%' }}
+        viewBox='0 0 982 612'
+      >
         <g fillRule='nonzero'>
           {Object.entries(states).map(([state, { path, count }]) => (
             <path

@@ -18,11 +18,10 @@ export default function WorldMap(): JSX.Element {
   return (
     <>
       <svg
-        width='710px'
-        height='390px'
         viewBox='0 0 710 390'
         version='1.1'
         xmlns='http://www.w3.org/2000/svg'
+        style={{ maxWidth: '100%' }}
       >
         <title>world-map</title>
         <g fillRule='nonzero'>
